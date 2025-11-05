@@ -7,7 +7,7 @@
   --color-brand-light-black: #282828;
   --color-brand-normal: #F00;
   --color-brand-white: #FBFFFE;
-  
+  --color-brand-dark-gray: #5E5E5E;
 }
 
 @layer base {

@@ -53,10 +53,10 @@ const OurVendors = () => {
         </h2>
       </div>
 
-      <div className="max-w-7xl mx-auto mt-[89px] w-full px-10 relative">
+      <div className="max-w-7xl mx-auto mt-[111px] w-full px-10 relative">
         <button
           ref={prevButtonRef}
-          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-12 h-full flex items-center justify-center bg-brand-light-black rounded-lg hover:bg-brand-normal transition-colors duration-300 group cursor-pointer"
+          className="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-9 h-full flex items-center justify-center bg-brand-light-black rounded-lg hover:bg-brand-normal transition-colors duration-300 group cursor-pointer"
           aria-label="Previous slide"
         >
           <svg className='rotate-180' xmlns="http://www.w3.org/2000/svg" width={19} height={14} viewBox="0 0 19 14" fill="none">
@@ -66,7 +66,7 @@ const OurVendors = () => {
         
         <button
           ref={nextButtonRef}
-          className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-12 h-full flex items-center justify-center bg-brand-light-black rounded-lg hover:bg-brand-normal transition-colors duration-300 group cursor-pointer"
+          className="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-9 h-full flex items-center justify-center bg-brand-light-black rounded-lg hover:bg-brand-normal transition-colors duration-300 group cursor-pointer"
           aria-label="Next slide"
         >
           <svg xmlns="http://www.w3.org/2000/svg" width={19} height={14} viewBox="0 0 19 14" fill="none">
@@ -111,6 +111,16 @@ const OurVendors = () => {
             </SwiperSlide>
           ))}
         </Swiper>
+      </div>
+
+      <div className='mt-20 pt-2'>
+        <p className='text-lg text-brand-white  font-light text-center'>
+        Мы стремимся предлагать своим клиентам лучшие решения и технологии, поэтому мы сотрудничаем <span className='font-bold'>с ведущими вендорами в своей области.</span><br />
+        Наши партнеры - это компании, которые делят наши ценности и <span className='text-brand-normal'>стремятся к безупречному качеству.</span>
+        </p>
+        <p className='text-sm font-light text-brand-dark-gray text-center mt-5'>
+        * Список представлен не исчерпывающим образом. Мы открыты для сотрудничества с новыми вендорами и всегда готовы рассмотреть ваши предложения.
+        </p>
       </div>
     </section>
   )
