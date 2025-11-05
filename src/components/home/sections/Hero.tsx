@@ -1,10 +1,10 @@
 import { useState } from "react"
-import LogoWhiteImage from '../../assets/logo-white.svg'
+import LogoWhiteImage from '../../../assets/logo-white.svg'
 
 const Hero = () => {
   const [isAnimation, setIsAnimation] = useState(false)
   return (
-    <section className={`sticky top-[90px] min-h-dvh z-[1] flex flex-col items-center justify-center transition-all duration-300 ${isAnimation ? 'bg-brand-light-black' : 'bg-white'}`}>
+    <section className={`sticky top-[90px] min-h-dvh z-1 flex flex-col items-center justify-center transition-all duration-300 ${isAnimation ? 'bg-brand-light-black' : 'bg-white'}`}>
         <div className={`relative max-w-[980px] w-full mx-auto py-12 transition-all duration-300 ${isAnimation ? 'text-white' : 'text-brand-black'}`}>
           <span className={`block absolute transition-all duration-500 ${isAnimation ? 'left-0 top-10 stroke-white' : 'left-0 top-0 stroke-brand-black'}`}>
             <svg xmlns="http://www.w3.org/2000/svg" width={25} height={24} viewBox="0 0 25 24" fill="none">

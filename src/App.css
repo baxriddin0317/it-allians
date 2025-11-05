@@ -5,12 +5,21 @@
   --color-brand-light-black: #282828;
   --color-brand-normal: #F00;
   --color-brand-white: #FBFFFE;
+  
 }
 
 @layer base {
   body {
     font-family: 'TT Norms Pro', sans-serif;
   }
+}
+
+.card{
+ @apply bg-brand-white shadow-[4.444px_5.556px_11.111px_0_rgba(30,30,30,0.50)] transition-all duration-300 border border-brand-black rounded-xl
+}
+
+.card:hover{
+  @apply bg-brand-black -translate-y-4 scale-[0.98]
 }
 
 /* font family */
