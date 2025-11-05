@@ -1,3 +1,6 @@
+import { Link } from "react-router-dom"
+import Huawei from "../../../assets/logos/huawei_logo.png"
+import LogoCard from "../../LogoCard"
 
 const OurVendors = () => {
   return (
@@ -33,7 +36,10 @@ const OurVendors = () => {
         </h2>
       </div>
 
-      
+      <div className="max-w-7xl mx-auto">
+        {/* swiper item */}
+        <LogoCard Image={Huawei} href="#" />
+      </div>
     </section>
   )
 }
