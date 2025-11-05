@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@import "swiper/css";
+@import "swiper/css/navigation";
 
 @theme {
   --color-brand-black: #1E1E1E;
