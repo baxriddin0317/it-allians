@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import Huawei from "../../../assets/logos/huawei_logo.png"
 import LogoCard from "../../LogoCard"
 
